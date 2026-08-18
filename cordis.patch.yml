@@ -1,0 +1,13 @@
+# @dsh-external/dsh-perf-suite bundle patch.
+- insert:
+    - id: dsh-perf-suite
+      name: "@dsh-external/dsh-perf-suite"
+      config:
+        windowMs: 30
+        webCompression: gzip+br
+        immutableCache: true
+        preloadClientBundles: immediate
+        contentVisibility: true
+        webuiPerfEnabled: true
+        contextCompression: false
+        largeSessionPerf: false
